@@ -300,7 +300,6 @@ Tabs.Misc:AddButton({
     Description = "Opens the Dark Dex script",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
-        print("Dark Dex executed.")
     end
 })
 
