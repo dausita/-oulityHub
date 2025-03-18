@@ -29,7 +29,6 @@ local Tabs = {
     ShrimpGame = Window:AddTab({ Title = "Shrimp Game", Icon = "" }),
     UniversalAnimation = Window:AddTab({ Title = "Universal Animation/Emote", Icon = "" }),
     TheStrongestBattlegrounds = Window:AddTab({ Title = "The Strongest Battlegrounds", Icon = "" }),
-    UniversalAutoPlayPiano = Window:AddTab({ Title = "Universal Auto Play Piano", Icon = "" }),
     UniversalSuperRingPartsV6 = Window:AddTab({ Title = "Universal Super Ring Parts v6", Icon = "" }),
     Misc = Window:AddTab({ Title = "Misc", Icon = "" }), 
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
@@ -130,14 +129,6 @@ Tabs.Fisch:AddButton({
     Description = "Best Keyless Fisch Script", 
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-    end
-})
-
-Tabs.UniversalAutoPlayPiano:AddButton({
-    Title = "Universal Auto Play Piano V8 Script", 
-    Description = "Best Keyless Piano Script", 
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Sad/main/NoKey"))()
     end
 })
 
